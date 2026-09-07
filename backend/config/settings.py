@@ -143,6 +143,8 @@ LANGUAGE_CODE = 'fr-fr'
 
 TIME_ZONE = 'Africa/Douala'
 
+AUTH_USER_MODEL = "accounts.User"
+
 USE_I18N = True
 
 USE_TZ = True
